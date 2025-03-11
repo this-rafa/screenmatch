@@ -4,9 +4,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.estudos.screenmatch.desafios.FiltrarNumerosImpares;
-import br.com.estudos.screenmatch.desafios.RemovendoDuplicatas;
-import br.com.estudos.screenmatch.desafios.SubListas;
+import br.com.estudos.screenmatch.principal.Principal;
 
 
 
@@ -19,10 +17,8 @@ public class ScreenmatchApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 
-		//Principal principal = new Principal();
-		//principal.exibirMenu();
-
-		SubListas subListas = new SubListas();
+		Principal principal = new Principal();
+		principal.exibirMenu();
 
 	}
 
